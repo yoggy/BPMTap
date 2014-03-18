@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BPMTapActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="BPM"
+        android:textSize="32sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/textViewBPM"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/textView1"
+         android:gravity="right"
+         android:text="000.00"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="72sp" />
+    
+   <TextView
+        android:id="@+id/textViewDulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:gravity="right"
+        android:text="000.00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="72sp" />
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewBPM"
+        android:text="dulation (sec)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp" />
+
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewDulation"
+        android:text="height (m) ... h=1/2*g*t^2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp" />
+
+     <TextView
+        android:id="@+id/textViewHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3"
+        android:gravity="right"
+        android:text="000.00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="72sp" />
+
+</RelativeLayout>
